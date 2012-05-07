@@ -116,15 +116,9 @@
 		2A98754715576BDC009AAAE4 /* CircleEvent */ = {
 			isa = PBXGroup;
 			children = (
-				2A98755015576BDC009AAAE4 /* AppDelegate.h */,
-				2A98755115576BDC009AAAE4 /* AppDelegate.m */,
-				2A98755315576BDC009AAAE4 /* MainStoryboard_iPhone.storyboard */,
-				2A98755615576BDC009AAAE4 /* MainStoryboard_iPad.storyboard */,
-				2A98755915576BDC009AAAE4 /* ViewController.h */,
-				2A98755A15576BDC009AAAE4 /* ViewController.m */,
+				2A987581155777FB009AAAE4 /* demoFile */,
+				2A987580155777ED009AAAE4 /* event */,
 				2A98754815576BDC009AAAE4 /* Supporting Files */,
-				2A98757D15576C42009AAAE4 /* CircleGesture.h */,
-				2A98757E15576C42009AAAE4 /* CircleGesture.m */,
 			);
 			path = CircleEvent;
 			sourceTree = "<group>";
@@ -157,6 +151,28 @@
 				2A98756B15576BDC009AAAE4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A987580155777ED009AAAE4 /* event */ = {
+			isa = PBXGroup;
+			children = (
+				2A98757D15576C42009AAAE4 /* CircleGesture.h */,
+				2A98757E15576C42009AAAE4 /* CircleGesture.m */,
+			);
+			name = event;
+			sourceTree = "<group>";
+		};
+		2A987581155777FB009AAAE4 /* demoFile */ = {
+			isa = PBXGroup;
+			children = (
+				2A98755015576BDC009AAAE4 /* AppDelegate.h */,
+				2A98755115576BDC009AAAE4 /* AppDelegate.m */,
+				2A98755315576BDC009AAAE4 /* MainStoryboard_iPhone.storyboard */,
+				2A98755615576BDC009AAAE4 /* MainStoryboard_iPad.storyboard */,
+				2A98755915576BDC009AAAE4 /* ViewController.h */,
+				2A98755A15576BDC009AAAE4 /* ViewController.m */,
+			);
+			name = demoFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
